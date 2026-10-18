@@ -60,13 +60,13 @@ No external Python packages are required — only the standard library (`tkinter
 **Cross-platform version** (recommended — supports Linux & macOS, responsive UI):
 
 ```bash
-sudo python3 network_conditioner.py
+sudo python3 PortableNetworkConditioner.py
 ```
 
 **Linux-only version**:
 
 ```bash
-sudo python3 network_conditioner_linux.py
+sudo python3 network_conditioner_bi.py
 ```
 
 > `sudo` is required because shaping traffic requires elevated privileges. The cross-platform script checks for root and required dependencies on startup and will prompt you if something is missing.
